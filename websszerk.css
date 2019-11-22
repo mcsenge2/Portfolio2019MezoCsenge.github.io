@@ -1,0 +1,94 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: white;
+  background-image: url("https://img.pngio.com/black-and-white-wave-png-transparent-black-and-white-wavepng-ocean-wave-png-black-and-white-1600_1200.png");
+  
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  font-family: Bodoni MT Black;
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: Bodoni MT Black;
+  text-align: right;
+  color: black;
+  
+}
+.topnav {
+  overflow: hidden;
+  text-align: right;
+  color:black;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 65%;
+}
+
+.rightcolumn {
+  float: left;
+  color: black;
+  width: 35%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: grey;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+	border-radius: 25px;
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-radius: 25px;
+}
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: black;
+  color: white;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
